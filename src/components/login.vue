@@ -2,17 +2,23 @@
   <div class="login">
     <div class="tips">
       <h1>登录</h1>
-      <a>测试,如果需要登陆请输入access code。</a>
+      <a>需要登陆，请输入access code。</a>
       <div class="input">
-        <n-input v-model:value="aimeCard" class="aimeInput" type="text" placeholder="基本的 Input"/>
+        <n-input v-model:value="aimeCard" class="aimeInput" type="text" placeholder="Access Code"/>
       </div>
+      <n-button type="success" @click="openURL('/dashboard')">
+        登录
+      </n-button>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import {aimeCard} from "@/components/ts/useStorage";
-import {NInput} from 'naive-ui'
+import {NInput,NButton} from 'naive-ui'
+function openURL(url: string) {
+  window.open(url)
+}
 
 console.log(aimeCard.value);
 </script>
