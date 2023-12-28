@@ -11,7 +11,7 @@
             fill="#7cbc29"></path>
       </svg>
       <img src="../../img/line_02.png" class="w_430 m_b_10" alt="我是傻逼">
-      <div class="f_15 p_5">© SBGA</div>
+      <div class="sbga">© SBGA</div>
     </div>
   </footer>
 </template>
@@ -26,6 +26,10 @@
 .bottom {
   background-color: #55ab37;
   width: 30em;
+}
+.sbga{
+  display: flex;
+  justify-content: center;
 }
 
 </style>
