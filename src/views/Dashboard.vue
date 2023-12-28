@@ -6,8 +6,10 @@
     <div class="menu">
       <Menu></Menu>
     </div>
+    <div>
+      <Botton></Botton>
+    </div>
   </div>
-
 </template>
 
 
@@ -15,6 +17,7 @@
 
 import Title from "@/components/dashboard/title.vue";
 import Menu from "@/components/dashboard/menu.vue";
+import Botton from "@/components/dashboard/bottom.vue";
 </script>
 ```
 <style>
@@ -24,11 +27,13 @@ import Menu from "@/components/dashboard/menu.vue";
   background-color: #51bcf3;
   flex-direction: column;
   display: flex;
-  .title{
+
+  .title {
     display: flex;
     justify-content: center;
   }
-  .menu{
+
+  .menu {
     display: flex;
     justify-content: center;
   }

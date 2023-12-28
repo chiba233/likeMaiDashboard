@@ -28,6 +28,7 @@ import {openURL} from "@/components/ts/normal";
     img {
       height: 5em;
       width: 15em;
+
     }
   }
 
