@@ -63,7 +63,7 @@ import {menuSelectFun} from "@/components/ts/normal";
 .menuBox {
   display: flex;
   flex-direction: column;
-  width: 28.5em;
+  width: 30em;
   padding: 0.5em;
 
   img {
@@ -79,7 +79,7 @@ import {menuSelectFun} from "@/components/ts/normal";
 
     img {
       padding-top: 0.5em;
-      width: 6.5em;
+      width: 6.8em;
       height: 4em;
     }
   }
@@ -93,7 +93,7 @@ import {menuSelectFun} from "@/components/ts/normal";
     img {
       padding-top: 0.5em;
       padding-bottom: 0.5em;
-      width: 6.5em;
+      width: 6.8em;
       height: 4em;
     }
   }

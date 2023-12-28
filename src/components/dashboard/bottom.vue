@@ -25,7 +25,7 @@
 
 .bottom {
   background-color: #55ab37;
-  width: 28.5em;
+  width: 30em;
 }
 
 </style>
