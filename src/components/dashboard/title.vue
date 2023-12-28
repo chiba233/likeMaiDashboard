@@ -10,9 +10,7 @@
 </template>
 
 <script setup lang="ts">
-function openURL(url: string) {
-  window.open(url)
-}
+import {openURL} from "@/components/ts/normal";
 
 </script>
 
@@ -21,6 +19,8 @@ function openURL(url: string) {
   display: flex;
   padding-top: 2em;
   justify-content: center;
+  height: 5em;
+  width: 25em;
 
   .title {
     position: absolute;

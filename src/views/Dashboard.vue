@@ -1,13 +1,20 @@
 <template>
   <div class="backBody">
-    <Title></Title>
+    <div class="title">
+      <Title></Title>
+    </div>
+    <div class="menu">
+      <Menu></Menu>
+    </div>
   </div>
+
 </template>
 
 
 <script setup lang="ts">
 
 import Title from "@/components/dashboard/title.vue";
+import Menu from "@/components/dashboard/menu.vue";
 </script>
 ```
 <style>
@@ -15,9 +22,16 @@ import Title from "@/components/dashboard/title.vue";
   width: 100%;
   height: 100%;
   background-color: #51bcf3;
-  justify-content: center;
-  text-align: center;
+  flex-direction: column;
   display: flex;
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+  .menu{
+    display: flex;
+    justify-content: center;
+  }
 
 }
 </style>
