@@ -62,7 +62,7 @@ import {menuSelectFun} from "@/components/ts/normal";
 <style scoped lang="scss">
 .menuBox {
   width: 30em;
-  padding: 2em;
+  padding: 0.5em;
 
   img {
     padding-left: 0.25em;
@@ -76,8 +76,9 @@ import {menuSelectFun} from "@/components/ts/normal";
     background-color: #7ed3ff;
 
     img {
-      width: 6em;
-      height: 3.8em;
+      padding-top: 0.5em;
+      width: 6.5em;
+      height: 4em;
     }
   }
 
@@ -89,8 +90,9 @@ import {menuSelectFun} from "@/components/ts/normal";
 
     img {
       padding-top: 0.5em;
-      width: 6em;
-      height: 3.8em;
+      padding-bottom: 0.5em;
+      width: 6.5em;
+      height: 4em;
     }
   }
 
